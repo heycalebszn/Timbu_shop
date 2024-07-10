@@ -1,4 +1,5 @@
-
+import { product1 } from "../assets"
+import { Star, ArrowRight } from "lucide-react";
 
 export const NavLinks = [
     {
@@ -24,8 +25,7 @@ export const products = [
         id: 0,
         title: "Nike Jordan Mid",
         price: "$2000",
-        stars: "wait fes!",
-        starsCount: "7k",
-        image: {}
+        starsCount: "(7k)",
+        image: product1,
     }
 ]
