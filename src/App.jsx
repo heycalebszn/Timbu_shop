@@ -6,7 +6,7 @@ import Products from "./components/Products";
 const App = () => {
   return(
     <>
-    <div className="mx-[30px]">
+    <div className="lg:mx-[30px]">
     <NavBar />
     <div className="flex">
     <SideBar />
