@@ -17,11 +17,10 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="flex lg:relative">
-                <Search className="lg:absolute hidden right-[220px] top-[6px] z-10 font-bold" size={12} />
+                <Search className="lg:absolute right-[220px] top-[6px] z-10 font-bold" size={12} />
                 <input className="rounded-[50px] w-[150px] px-[10px] pl-[25px] text-[10px] border-none outline-none relative z-0 py-[5px] font-bold lg:flex hidden" placeholder="Search" type="search" />
 
                 <div className="flex ml-[50px] items-center">
-                    <Search className="lg:hidden" size={15} />
                     <Heart className="ml-[10px]" size={15} />
                     <ShoppingBag className="ml-[10px]" size={15} />
                 </div>
