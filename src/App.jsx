@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./components/NavBar";
 import SideBar from "./components/SideBar";
 import Products from "./components/Products";
+import RelatedCategories from "./components/RelatedCategories";
 
 const App = () => {
   return(
@@ -12,6 +13,7 @@ const App = () => {
     <SideBar />
     <Products />
     </div>
+    <RelatedCategories />
     </div>
     </>
   )

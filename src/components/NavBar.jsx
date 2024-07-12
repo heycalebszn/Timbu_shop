@@ -22,7 +22,7 @@ const NavBar = () => {
 
                 <div className="flex ml-[50px] items-center">
                     <Heart className="ml-[10px]" size={15} />
-                    <ShoppingBag className="ml-[10px]" size={15} />
+                    <ShoppingBag className="ml-[10px] cursor-pointer" size={15} />
                 </div>
             </div>
         </div>

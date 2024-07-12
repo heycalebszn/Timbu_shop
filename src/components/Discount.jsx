@@ -9,7 +9,7 @@ const Discount = () => {
         <a href="#" className="text-[12px]">Order now!</a>
     </div>
     <div className="mt-[15px] flex justify-center items-center lg:mx-[5px]">
-        <img className="lg:w-[649px] w-[400px] lg:mx-[5px]" src={sneakers} width={649} alt="" />
+        <img className="lg:w-[649px] w-[350px] lg:mx-[5px]" src={sneakers} width={649} alt="" />
         </div>
     </div>
   )
