@@ -8,8 +8,8 @@ const Discount = () => {
         <p className="pr-[5px] text-[12px]">Get 28% Off Your First Order Today</p>
         <a href="#" className="text-[12px]">Order now!</a>
     </div>
-    <div className="mt-[20px] flex justify-center items-center">
-        <img className="w-[649px]" src={sneakers} width={649} alt="" />
+    <div className="mt-[15px] flex justify-center items-center lg:mx-[5px]">
+        <img className="lg:w-[649px] w-[400px] lg:mx-[5px]" src={sneakers} width={649} alt="" />
         </div>
     </div>
   )

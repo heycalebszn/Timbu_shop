@@ -2,7 +2,7 @@ import React from "react"
 
 const SideBar = () => {
   return (
-    <section className="lg:flex hidden flex-col mt-[10px]">
+    <section className="lg:flex hidden flex-col mt-[15px]">
         <div className="flex flex-col">
             <p className="text-[13px] font-[700]">Men's Fashion</p>
             <span className="text-[12px] pl-[20px] mt-[5px]">Shoes / Sneaker's</span>

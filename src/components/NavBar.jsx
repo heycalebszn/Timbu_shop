@@ -7,7 +7,7 @@ import Discount from "./Discount";
 const NavBar = () => {
   return (
     <section className="flex flex-col">
-        <div className="flex justify-between items-center bg-red-300 p-[10px]">
+        <div className="flex justify-between items-center bg-red-300 lg:p-[10px] p-[20px]">
             <img className="" src={logo} width={100} alt="Logo" />
             <div>
                 <ul className="lg:flex hidden">
@@ -17,7 +17,7 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="flex lg:relative">
-                <Search className="lg:absolute right-[220px] top-[6px] z-10 font-bold" size={12} />
+                <Search className="lg:absolute right-[230px] top-[6px] z-10 font-bold" size={12} />
                 <input className="rounded-[50px] w-[150px] px-[10px] pl-[25px] text-[10px] border-none outline-none relative z-0 py-[5px] font-bold lg:flex hidden" placeholder="Search" type="search" />
 
                 <div className="flex ml-[50px] items-center">

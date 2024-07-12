@@ -4,8 +4,8 @@ import { Star, ArrowRight } from "lucide-react";
 
 const Products = () => {
   return (
-    <section className="ml-[100px] mt-[10px]">
-            <div>
+    <section className="ml-[100px] mt-[15px] justify-center items-center m-auto">
+            <div className="lg:grid lg:grid-cols-5 flex flex-col gap-10">
                 {products.map((products) => (
                     <div key={products.id} className="">
                         <img className="w-[150px] px-0 py-0 m-0 bg-red-300" src={products.image} alt={products.name} />
